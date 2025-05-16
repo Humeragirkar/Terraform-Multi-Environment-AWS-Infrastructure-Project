@@ -1,0 +1,32 @@
+# Ignore Terraform working directory
+.terraform/
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Ignore lock file (optional to include if working solo)
+.terraform.lock.hcl
+
+# Ignore crash log files
+crash.log
+
+# Ignore sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore SSH keys
+terra-key
+terra-key.pub
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
